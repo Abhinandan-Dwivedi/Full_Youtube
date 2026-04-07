@@ -16,7 +16,7 @@
 * **Advanced Playback**: Custom video player with view-count logic and integrated watch history tracking.
 * **Interactions**: Real-time Likes and Comments (built with MongoDB aggregations for performance).
 
-### 🤖 Smart Features & Community
+### Smart Features & Community
 * **AI Summarization**: Architecture designed to generate concise summaries for videos (inspired by Hybrid CNN-Transformer research).
 * **Creator Tweets**: A dedicated "Community" tab for creators to post text updates and engage with subscribers.
 * **Channel Management**: Comprehensive "My Channel" dashboard for video analytics and profile customization.
