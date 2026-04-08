@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "/api/v1",
+    baseURL: "https://play-video.onrender.com/api/v1",
 
     withCredentials: true,
 });
@@ -34,7 +34,7 @@ api.interceptors.response.use(
             originalRequest._retry = true;
 
             try {
-                await axios.post("/api/v1/user/refresh-token", {}, { withCredentials: true });
+                await axios.post("https://play-video.onrender.com/api/v1/user/refresh-token", {}, { withCredentials: true });
 
                 return api(originalRequest);
             } catch (refreshError) {
