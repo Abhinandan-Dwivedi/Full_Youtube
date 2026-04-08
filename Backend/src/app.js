@@ -7,7 +7,7 @@ import { User } from './Models/User.model.js';
 const app = express();
 
 app.use(cors({
-    origin: 'https://play-app-frontend-seven.vercel.app',  
+    origin: 'https://play-app-frontend-813b5p587-04isfour-1265s-projects.vercel.app',  
     credentials: true, 
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"]
